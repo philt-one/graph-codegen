@@ -29,7 +29,7 @@ CozoDB is a general-purpose, transactional, relational database that uses Datalo
 
 https://huggingface.co/jinaai/jina-embeddings-v2-base-en
 
-jina-embeddings-v2-base-en is an English, monolingual open-source embedding model supporting 8192 sequence length. It is based on a Bert architecture (JinaBert) that supports the symmetric bidirectional variant of [ALiBi](https://arxiv.org/abs/2108.12409) to allow longer sequence length.
+`jina-embeddings-v2-base-en` is an English, monolingual open-source embedding model supporting 8192 sequence length. It is based on a Bert architecture (JinaBert) that supports the symmetric bidirectional variant of [ALiBi](https://arxiv.org/abs/2108.12409) to allow longer sequence length.
 
 ### LangChain
 
