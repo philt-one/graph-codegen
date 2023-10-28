@@ -30,3 +30,9 @@ CozoDB is a general-purpose, transactional, relational database that uses Datalo
 https://huggingface.co/jinaai/jina-embeddings-v2-base-en
 
 jina-embeddings-v2-base-en is an English, monolingual open-source embedding model supporting 8192 sequence length. It is based on a Bert architecture (JinaBert) that supports the symmetric bidirectional variant of [ALiBi](https://arxiv.org/abs/2108.12409) to allow longer sequence length.
+
+### LangChain
+
+https://www.langchain.com/
+
+LangChain is a Python library and framework for developing applications powered by language models. It provides a standard interface to interact with a variety of large language models (LLMs) like GPT. LangChain includes functionality such as token management and context management1. It also features data awareness and agentic behavior, enabling the model to interact with its environment and make dynamic decisions based on user input. LangChain provides SDK to integrate with many LLMs provider, including Azure OpenAI.
