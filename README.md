@@ -1,19 +1,17 @@
-# Graph-CodeGen 🤖🧠
+# Graph-CodeGen: A New Approach to Code Generation 🤖🧠
 
-This repo is dedicated to the exploration and implementation of innovative techniques for code generation using a Language Model (LLM).
+Welcome to Graph-CodeGen, a repository dedicated to exploring and implementing new techniques for code generation using a Language Model (LLM). The primary focus is on utilizing textual summaries of Python objects such as functions, classes, modules, etc., to assess their reusability potential by the LLM during the code generation process.
 
-The core idea is centered on leveraging textual summaries of Python objects (functions, classes, modules, ...) to evaluate their potential for reuse by the LLM during the code generation process.
+## Overview 📝
 
-## Summary 📝
+The initial step involves a comprehensive analysis of the Abstract Syntax Tree (AST) of the code. The goal of this analysis is to identify and understand the connections between different objects. Following this, we create a summary for each relevant object and encapsulate it as a node within a graph network. We further enhance this node with metadata, including the source code, dependencies, and other pertinent information.
 
-Our preliminary step involves a detailed analysis of the Abstract Syntax Tree (AST) of the code. This analysis aims to extract and understand the relationships between various objects. Subsequently, we summarize each pertinent object and encapsulate it as a node within a graph network. This node is further enriched with metadata, such as the source code, dependencies, and additional relevant information.
+This approach aims to improve the quality of code semantic search results in two main ways:
 
-By adopting this approach, we aim to enhance the quality of code semantic search results by:
+- By converting code objects into more easily digestible text summaries, we provide a more understandable alternative to the original code embedding.
+- By mapping the relationships between various objects on a graph network, we enable the use of graph traversal algorithms.
 
-- Transforming the code objects into more digestible text embeddings (summaries), which offer a more understandable alternative to the original code embedding.
-- Mapping the relationship between various objects on a graph network, which enables the exploitation of graph traversal algorithms.
-
-This approach not only simplifies the comprehension of the code but also facilitates its potential reuse in diverse contexts, thereby increasing efficiency and productivity.
+This method not only simplifies the understanding of the code but also makes it easier to reuse in different contexts, thereby boosting efficiency and productivity.
 
 ![Flowchart](flowchart.png "Flowchart")
 
