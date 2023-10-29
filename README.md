@@ -1,6 +1,6 @@
 # Graph-CodeGen 🤖🧠
 
-Welcome to Graph-CodeGen, a repository dedicated to exploring a novel technique for code generation using a Language Model (LLM). Our primary focus is on leveraging textual summaries of Python objects, including functions, classes, modules, and more. These summaries are used to provide precise results when searching for contextual information within a vector database. This information is then added to a prompt, thereby assisting the LLM in the code generation process.
+Welcome to Graph-CodeGen, a repository dedicated to exploring a novel technique for code generation using a Language Model (LLM). The primary focus is on leveraging textual summaries of Python objects, including functions, classes, modules, and more. These summaries are used to provide precise and easily digestible results when searching for contextual information within a vector database. This information is then added to a prompt, thereby assisting the LLM in the code generation process.
 
 ## Overview 📝
 
