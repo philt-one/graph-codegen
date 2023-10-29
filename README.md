@@ -11,7 +11,7 @@ This approach aims to improve the quality of code semantic search results in two
 - By converting code objects into more easily digestible text summaries, we provide a more understandable alternative to the original code embedding.
 - By mapping the relationships between various objects on a graph network, we enable the use of graph traversal algorithms.
 
-This method not only simplifies the understanding of the code but also makes it easier to reuse in different contexts, thereby boosting efficiency and productivity.
+This method not only could simplifies the understanding of the code for the LLM, but also makes it easier to reuse in different contexts, thereby boosting accuracy and mitigating the hallucination problem observed with Language Models.
 
 ![Flowchart](flowchart.png "Flowchart")
 
