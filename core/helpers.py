@@ -12,6 +12,8 @@ def node_name(node: ast.AST) -> str | List[str]:
     match type(node):
         case ast.Import:
             return [alias.name for alias in node.names]
+        case ast.ImportFrom:
+            return [f"{node.module}.{alias.name}" for alias in node.names]
         case ast.FunctionDef | ast.ClassDef:
             return node.name
         case ast.Assign:
