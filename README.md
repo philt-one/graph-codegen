@@ -4,7 +4,7 @@ Welcome to Graph-CodeGen, a repository dedicated to exploring a novel technique 
 
 ## Overview 📝
 
-The initial step involves a comprehensive analysis of the Abstract Syntax Tree (AST) of the code. The goal of this analysis is to identify and understand the connections between different objects. Following this, we create a summary for each relevant object and encapsulate it as a node within a graph network. We further enhance this node with metadata, including the source code, dependencies, and other pertinent information.
+The initial step involves a comprehensive analysis of the Abstract Syntax Tree (AST) of the code. The goal of this analysis is to identify and understand the connections between different objects. Following this, we create a summary for each relevant object and encapsulate it as a node within a graph network. We further enhance this node with metadata, including the source code, dependencies, and other pertinent information. When an object depends on another one outside of its local scope, an edge is drawn to connect the two.
 
 This approach aims to improve the quality of code semantic search results in two main ways:
 
