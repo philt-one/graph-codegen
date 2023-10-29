@@ -6,8 +6,8 @@ from typing import List, Dict
 class PyAstExtractor:
     def __init__(self, path: str | os.PathLike):
         self.path = path
-        self.name = self._remove_extension(os.path.basename(path))
-        self.tree = self._get_tree()
+        self.name: str = self._remove_extension(os.path.basename(path))
+        self.tree: ast.Module = self._get_tree()
 
     def _remove_extension(self, filename) -> str:
         return os.path.splitext(filename)[0]
