@@ -7,6 +7,7 @@ class PyAstExtractor:
         self.path = path
         self.name = self._remove_extension(os.path.basename(path))
         self.tree = self.get_tree()
+        self.body = self.tree.body
 
     def _remove_extension(self, filename) -> str:
         return os.path.splitext(filename)[0]
