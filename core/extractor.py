@@ -26,7 +26,11 @@ class PyAstExtractor:
 
     def get_imports(self) -> List[str]:
         """Extract all top-level imported modules nodes from the AST."""
-        return [node for node in self.tree.body if isinstance(node, ast.Import)]
+        return [
+            node
+            for node in self.tree.body
+            if isinstance(node, ast.Import) or isinstance(node, ast.ImportFrom)
+        ]
 
     def get_dependencies(self) -> Dict[str, List[str]]:
         """Extract all dependencies (imports, functions, classes) from the AST."""
