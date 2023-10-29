@@ -1,6 +1,6 @@
-# Graph-CodeGen: A New Approach to Code Generation 🤖🧠
+# Graph-CodeGen: Graph-Based Code Memory for AI 🤖🧠
 
-Welcome to Graph-CodeGen, a repository dedicated to exploring and implementing new techniques for code generation using a Language Model (LLM). The primary focus is on utilizing textual summaries of Python objects such as functions, classes, modules, etc., to assess their reusability potential by the LLM during the code generation process.
+Welcome to Graph-CodeGen, a repository dedicated to exploring a novel technique for code generation using a Language Model (LLM). Our primary focus is on leveraging textual summaries of Python objects, including functions, classes, modules, and more. These summaries are used to provide precise results when searching for contextual information within a vector database. This information is then added to a prompt, thereby assisting the LLM in the code generation process.
 
 ## Overview 📝
 
@@ -11,7 +11,7 @@ This approach aims to improve the quality of code semantic search results in two
 - By converting code objects into more easily digestible text summaries, we provide a more understandable alternative to the original code embedding.
 - By mapping the relationships between various objects on a graph network, we enable the use of graph traversal algorithms.
 
-This method not only could simplifies the understanding of the code for the LLM, but also makes it easier to reuse in different contexts, thereby boosting accuracy and mitigating the hallucination problem observed with Language Models.
+This method not only could simplifies the understanding of the code by the LLM, but also makes it easier to reuse in different contexts, thereby boosting accuracy and mitigating the hallucination problem observed with Language Models.
 
 ![Flowchart](flowchart.png "Flowchart")
 
